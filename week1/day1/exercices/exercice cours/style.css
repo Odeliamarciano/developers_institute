@@ -1,0 +1,24 @@
+#main-heading{
+	color: red;
+	background-color: green;
+}
+
+#other-heading{
+	color: yellow;
+	background-color: purple ; 
+}
+.blue-text {
+	color: cyan;
+}
+
+ul li {
+	color: green;
+}
+
+ul > li {
+	color: green;
+}
+
+a: hover{
+	color: red;
+}

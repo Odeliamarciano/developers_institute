@@ -1,0 +1,135 @@
+.right{
+    border: solid rgb(252, 252, 252);
+    color: white;
+    background-color: pink;
+    text-align: center;
+}
+
+hr{
+    size: 3px;
+    color: pink;
+}
+
+img{
+    border-radius: 50%;
+    width: 40%;
+}
+
+h5{
+    text-align: left;
+}
+
+.competences div{
+
+    position: absolute;
+    left: 300px;
+    height: 35px;
+    border: solid 1px grey;
+
+}
+
+.competences h3{
+    left: 150px;
+}
+
+.div1{
+	
+    width: 200px;
+    top: 72%;
+   
+}
+
+.div2{
+
+    width: 170px;
+    top: 72%;
+    
+
+}
+
+.div3{
+    
+    width: 200px;
+    top: 76%;
+
+}
+
+.div4{
+
+    width: 170px;
+    top: 76%;
+
+}
+
+.div5{
+
+    width: 200px;
+    top: 80%;
+
+}
+
+.div6{
+
+    width: 115px;;
+    top: 80%;
+
+}
+
+.div7{
+
+    width: 200px;
+    top: 84%;
+}
+
+.div8{
+
+    width: 115px;
+    top: 84%;
+
+}
+
+.div9{
+
+    width: 200px;
+    top: 88%;
+
+}
+
+.div10{
+
+    width: 130px;
+    top: 88%;
+
+}
+
+.div11{
+
+    width: 200px;
+    top: 92%;
+
+}
+
+.div12{
+
+    width: 140px;
+    top: 92%;
+
+}
+
+.div13{
+
+    width: 200px;
+    top: 96%;
+  
+}
+
+.div14{
+
+	width: 150px;
+    top: 96%;
+
+}
+
+.link{
+    color: white;
+}

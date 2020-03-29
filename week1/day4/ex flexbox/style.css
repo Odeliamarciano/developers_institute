@@ -1,0 +1,76 @@
+section{
+    border: solid 2px red;
+    display: flex;
+    /*justify-content: space-between;*/
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 150px;
+    padding: 3px;
+    
+    
+}
+
+div{
+    border: solid 1px blue;
+    background-color: lightblue;
+    text-align: center;
+    height:80%;;
+}
+
+.div1{
+
+    width: 200px;
+    align-self: center;
+    
+}
+
+.div2{
+
+    width: 200px;
+    align-self: flex-end;
+    
+}
+
+.div3{
+   
+    width: 200px;
+    align-self: center;
+
+}
+
+.section2{
+
+    border: solid 2px orange;
+    display: flex;
+    flex-flow: wrap;
+    align-items: baseline;
+    justify-content: flex-start;
+    height: 50px;
+    padding: auto;
+
+}
+
+.diva{
+
+    background-color: blueviolet;
+    width: 19%;
+    height: 80%;
+
+}
+
+.divb{
+
+    background-color: lightblue;
+    width: 40%;
+    height: 80%;
+    
+}
+
+.divc{
+
+    background-color: lightsalmon;
+    width: 40%;
+    height: 80%;
+    
+}
+

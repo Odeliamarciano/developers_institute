@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif
+}
+
+body{
+    margin: 0;
+}
+
+
+.container{
+    width: 1140px;
+    margin: auto;
+}
+
+.section1{
+    display: block;
+}
+
+
+
+
+.navbar{
+    
+    background-color: rgb(235, 235, 235);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+}
+.navbar div:hover{
+    background-color: rgb(131, 127, 127);
+    transition:all 0.3s ease;
+}
+
+.div1{
+    background-color: lightgreen;
+
+}
+
+.color:hover
+{
+        background:#53a7ea;
+        transition:all 0.3s ease;
+}
+
+.div2{
+    background-color: lightpink;
+    
+}
+
+.grow:hover
+{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        transition:all 0.3s ease;
+}
+
+
+.div3{
+    background-color: lightsalmon;
+    
+}
+
+.shrink:hover
+{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+        transition:all 0.3s ease;
+}
+
+.div4{
+    background-color: lightyellow;
+    
+}
+
+.rotate:hover
+{
+        -webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-30deg);
+        transition:all 0.3s ease;
+}
+
+
+.navbar a{
+
+    font-size: 12px;
+    width: 80%;
+    margin: auto;
+
+}
+
+.navbar div {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.img1 img{
+
+    border-radius: 8px;
+    margin-bottom: 30px;
+    
+}
+
+.img1 {
+    text-align: center;
+
+}
+.service {
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+
+}
+
+.service div{
+
+    width: 20%;
+    height: 120px;
+    text-align: center;
+    padding: 1%;
+   
+    
+}
+
+.service i{
+
+    font-size: 30px;
+    margin: 15px;
+    text-align: center;
+
+}
+
+.services div, i{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   
+    
+    
+}
+
+h4{
+    text-align: center;
+}
+
+.img2 div {
+    margin: 50px 1% 20px;
+    width: 18%;
+    border: 5px rgb(219, 219, 219) solid;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.img2 div img {
+    width: 100%;
+}
+
+.circle:hover
+{
+        border-radius:50%;
+        transition:all 0.3s ease;
+    }
+
+.threed:hover
+{
+        box-shadow:
+                1px 1px #53a7ea,
+                2px 2px #53a7ea,
+                3px 3px #53a7ea;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+        transition:all 0.3s ease;
+}
+
+
+.swing:hover
+{
+        -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+        transition:all 0.3s ease;
+}
+
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}

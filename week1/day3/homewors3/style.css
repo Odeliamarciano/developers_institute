@@ -1,0 +1,48 @@
+.background{
+    background-image: url(https://image.freepik.com/foto-gratis/usando-computadora-portatil-escritorio-oficina_426-19315251.jpg);
+    min-height: 380px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    position: relative;
+}
+
+.center{
+    text-align: center;
+    color: rgb(56, 53, 53);
+    margin-top: 7%;
+}
+
+.color{
+    color: royalblue;
+}
+
+.text{
+    color: black;
+}
+
+
+i{
+    color: royalblue;
+}
+
+.navtextcolor{
+    color: white;
+}
+
+.cardmargin{
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.card{
+    border: none;
+}
+
+.navbarmargin{
+    margin-left: 15%;
+    margin-right: 15%;
+}

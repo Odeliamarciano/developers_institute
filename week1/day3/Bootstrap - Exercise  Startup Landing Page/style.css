@@ -1,0 +1,19 @@
+.img{
+    background-image: url(https://us.123rf.com/450wm/yurygulakov/yurygulakov1709/yurygulakov170900010/85751097-ordinateur-portable-argent-moderne-sur-un-fond-noir-la-moiti%C3%A9-de-l-ordinateur-%C3%A0-l-ombre-.jpg?ver=6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+body, html{
+    height: 100%;
+}
+
+h3{
+    padding-top: 10%;
+    text-align: center;
+    color: white;
+    margin-top: 45%;
+}
+
