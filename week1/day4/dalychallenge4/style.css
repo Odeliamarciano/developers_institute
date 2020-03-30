@@ -1,0 +1,158 @@
+#section_id {
+
+    display: grid;
+    height: 80%;
+    width: 50%;
+
+    grid-template-areas:
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+    ;
+}
+
+
+
+.orange {
+    background: orange;
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+    
+}
+
+.beige {
+    background-color: beige;
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+    
+}
+
+.brown {
+    background-color: brown;
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+   
+}
+
+#section_id2 {
+
+    display: grid;
+    height: 80%;
+    width: 50%;
+
+    grid-template-areas:
+
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            
+    ;
+}
+
+
+
+.white {
+    background-color:rgba(207, 202, 202, 0.925);
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+    
+}
+
+.grey1 {
+    background-color: rgba(179, 178, 178, 0.884);
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgb(226, 223, 223);
+    
+}
+
+.grey2 {
+    background-color: rgb(92, 87, 87);
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+   
+}
+
+.black {
+    background-color: rgb(65, 61, 61);
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+   
+}
+
+#section_id3 {
+
+    display: grid;
+    height: 50%;
+    width: 50%;
+    border: 2px solid rgb(163, 5, 5);
+
+    grid-template-areas:
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+            "div div div div div div div div div div div div div div div div"
+    ;
+}
+
+
+
+.white2 {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+.red1 {
+    background-color: rgba(216, 64, 64, 0.774);
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+.red2 {
+    background-color: rgb(163, 5, 5);
+    height: 100%;
+    width: 100%;
+    
+}
