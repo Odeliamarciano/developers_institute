@@ -1,0 +1,15 @@
+user = input("Enter a String ")
+
+while len(user) > 10:
+    user = input("Enter a String ")
+else:
+    a = len(user)
+    b = user[0]
+    c = user[a-1]
+    print(f"the first caractere : {b} the last one : {c}")
+for lettre in user:
+    print(lettre)
+
+
+new = print(user[::-1])
+
