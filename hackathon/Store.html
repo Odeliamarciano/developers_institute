@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="Store.css">
+    <link rel="stylesheet" href="home.css">
+    
+    <title>Store</title>
+</head>
+<body>
+
+  <div class="topnav">
+    <a class="active" href="home.html">Home</a>
+    <a href="Form.html">Signup</a>
+    <a href="store.html">Store</a>
+    <a href="#cart" onclick='showCart()'>Cart</a>
+
+  </div>
+
+
+<div>
+
+  <div id='container'> </div>
+
+  <div style="visibility: hidden;" id='cart'>
+    <button id=btn  onclick='hiddenCart()'> X </button>
+    <h3 id="totalCartt">  </h3>
+  </div>
+  <div></div>
+
+</div>
+ 
+      
+      <script src="store.js"></script>
+     
+</body>
+</html>

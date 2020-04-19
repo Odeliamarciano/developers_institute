@@ -1,0 +1,29 @@
+print(("Hello Word" + "\n" )*5)
+
+print((99*99*99)*8)
+
+name = "odelia"
+age = 24
+shoes_size = 38
+info = print(f"My name is {name} my age is {age} my shoes size :  {shoes_size}")
+
+i=(info)
+
+computer_brand = "acer"
+print(f"I have a {computer_brand} computer")
+
+
+False
+True
+False
+False
+False
+
+
+height = input("Enter your height")
+
+if int(height) > 35:
+    print("you are tall enough ")
+else:
+    print("you are not big enough")
+

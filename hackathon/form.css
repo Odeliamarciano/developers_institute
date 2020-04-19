@@ -1,0 +1,33 @@
+@import	url("https://fonts.googleapis.com/css?family=Raleway");
+
+
+body { 
+	background-color: black;
+	margin: 100px;
+	padding: 50px;
+	
+}
+
+@media only screen and (max-width: 600px) {
+  /*For mobile: */
+ .col-sm-12 {
+    width: 100%;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+/*   For tablet: */
+ .col-md-6 {
+    width: 50%;
+    font-size: 80px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+ /*  For desktop: */
+ .col-lg-4 {
+    width: 33.33%;
+    font-size: 120px;
+  }
+}
