@@ -1,0 +1,10 @@
+# Exercice1
+my_age = 24
+n = my_age + 123879
+print(f"in 123879 years I'll be {n}")
+
+# Exercice2
+
+first_name = "Odelia"
+last_name = "Marciano"
+print(f"{first_name} {last_name}")

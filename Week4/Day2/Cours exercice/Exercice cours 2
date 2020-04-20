@@ -1,0 +1,22 @@
+# Exercice1
+
+num = input("Enter a number")
+
+while int(num) > 9:
+
+    num = input("Enter a number")
+
+else:
+    i = 0
+    while int(i) < 11:
+
+        r = (int(num) * i)
+        print(f"{num}*{i}={r}")
+        i += 1
+
+# Exercice2
+
+j = 0
+while j < 10:
+    j += 1
+    print(f"{j}")
