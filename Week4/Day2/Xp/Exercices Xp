@@ -1,79 +1,162 @@
-# Exercice0
-basket = ["Banana", "Apples", "Oranges", "Blueberries"];
-del basket[0]
-del basket[2]
-print(basket)
+# # Exercice0
+# basket = ["Banana", "Apples", "Oranges", "Blueberries"];
+# del basket[0]
+# del basket[2]
+# print(basket)
+#
+# basket.append("kiwi")
+# print(basket)
+# basket.insert(0, 'Apples')
+# print(basket)
+#
+# print(basket.count('Apples'))
+# del basket[:]
+# print(basket)
+#
+# # Exercice1
+#
+# my_fav_numbers = set([7])
+# my_fav_numbers.add(9)
+# my_fav_numbers.add(5)
+# print(my_fav_numbers)
+#
+# my_fav_numbers.remove(7)
+#
+# print(my_fav_numbers)
+#
+# friend_fav_numbers = ([2, 4])
+#
+# my_fav_numbers.update(friend_fav_numbers)
+# print(my_fav_numbers)
+#
+# # Exercice2
+#
+# mfav_numbers = (7, 9, 5)
+#
+# ffav_numbers = (2, 4)
+#
+# fav_numbers = mfav_numbers + ffav_numbers
+#
+# print(fav_numbers)
+#
+# # Exercice3
+# # Q1 the float it's a numbers with comma and integer it's without a comma
+# # It's not working
+# # it's work if we replace the , with .
+#
+# a = [1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]
+# print(a)
+#
+#
+# # Exercice4
+# pizza = []
+# e = 1
+# while e ==1:
+#     a = input("Enter another element")
+#     pizza.append(a)
+#     print(pizza)
+#     r = input("do you want to add another thing ? (yes or no)")
+#     if r=="yes":
+#         e=1
+#     else :
+#         e=0
+#         print("it's finished")
+#
+# #Exercice5
+#
+# age = int(input("enter your age"))
+#
+# if age < 3:
+#     print("it's free for the kid")
+# elif 3 < age < 12:
+#     print("it's coast 10$")
+# else:
+#     print("it's coast 15$")
+#
+# # Exercice6
+#
+# li = (1, 2, 3, 4, 5, 6, 7)
+# for i in li:
+#     print(i)
+#
+# # Exercice7
+# famillyAge = []
+# k = 1
+# while k == 1:
+#     ageM = int(input("Enter your age"))
+#     famillyAge.append(ageM)
+#     print(famillyAge)
+#     another = input("Do you want to add another age ? (yes or no)")
+#     if another == "yes":
+#         k = 1
+#     else:
+#         k = 0
+#
+# total = 0
+# for i in famillyAge:
+#
+#         if i <= 3:
+#
+#             total += 0
+#
+#         elif 3 < i <= 12:
+#
+#             total += 10
+#
+#         elif i > 12:
+#
+#             total += 15
+#
+#
+# print(total)
 
-basket.append("kiwi")
-print(basket)
-basket.insert(0, 'Apples')
-print(basket)
+# #Exercice8
+#
+# lis = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+# for i in lis:
+#     if i % 2 ==0:
+#         print(i)
 
-print(basket.count('Apples'))
-del basket[:]
-print(basket)
+# # Exercice9
+#
+# friends = []
+# authorized = []
+# k = 1
+# while k == 1:
+#     ageF = int(input("Enter your age"))
+#     friends.append(ageF)
+#
+#     anotherF = input("Do you want to add another age ? (yes or no)")
+#     if anotherF == "yes":
+#         k = 1
+#     else:
+#         k = 0
+#
+#
+# for i in friends:
+#
+#     if 16 <= i <= 21:
+#
+#         print("You can see the movie")
+#         authorized.append(i)
+#     else:
+#         print("you can't see the movie")
+#
+# print(authorized)
 
-# Exercice1
-
-my_fav_numbers = set([7])
-my_fav_numbers.add(9)
-my_fav_numbers.add(5)
-print(my_fav_numbers)
-
-my_fav_numbers.remove(7)
-
-print(my_fav_numbers)
-
-friend_fav_numbers = ([2, 4])
-
-my_fav_numbers.update(friend_fav_numbers)
-print(my_fav_numbers)
-
-# Exercice2
-
-mfav_numbers = (7, 9, 5)
-
-ffav_numbers = (2, 4)
-
-fav_numbers = mfav_numbers + ffav_numbers
-
-print(fav_numbers)
-
-# Exercice3
-# Q1 the float it's a numbers with comma and integer it's without a comma
-# It's not working
-# it's work if we replace the , with .
-
-a = [1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]
-print(a)
+# Exercice10
 
 
-# Exercice4
-pizza = []
-e = 1
-while e ==1:
-    a = input("Enter another element")
-    pizza.append(a)
-    print(pizza)
-    r = input("do you want to add another thing ? (yes or no)")
-    if r=="yes":
-        e=1
-    else :
-        e=0
-        print("it's finished")
 
-#Exercice5
 
-age = int(input("enter your age"))
 
-if age < 3:
-    print("it's free for the kid")
-elif 3 < age < 12:
-    print("it's coast 10$")
-else:
-    print("it's coast 15$")
 
-# Exercice6
 
-li = (1, 2, 3, 4, 5, 6, 7)
+
+
+
+
+
+
+
 
