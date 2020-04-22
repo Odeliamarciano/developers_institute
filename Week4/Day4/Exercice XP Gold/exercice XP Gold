@@ -1,0 +1,42 @@
+from random import randint
+
+month = int(input("Enter a month "))
+value = 0
+
+
+def get_random_temp(month, value):
+    if 12 <= month < 13 or 0 < month <= 2:
+        value = randint(-10, 10)
+        season = "winter"
+    elif 3 <= month <= 5:
+        value = randint(11, 17)
+        season = "spring"
+    elif 9 <= month <= 11:
+        value = randint(18, 24)
+        season = "fall"
+    elif 6 <= month <= 8:
+        value = randint(25, 40)
+        season = "summer"
+
+    print(f"i'ts {season}")
+    return float(value)
+
+
+def main():
+
+    a = get_random_temp(month, value)
+    print(f"The temperature right now is {a} degrees Celsius.")
+    if a < 0:
+        print("Brrr, that’s freezing! Wear some extra layers today")
+    elif 0 <= a < 16:
+        print("Quite chilly! Don’t forget your coat")
+    elif 16 <= a < 23:
+        print("you need a sweat shirt")
+    elif 23 <= a < 32:
+        print("don't forget to take your water and sunglasses")
+    elif 32 <= a <= 40:
+        print("stay at home with conditioner")
+
+
+main()
+
