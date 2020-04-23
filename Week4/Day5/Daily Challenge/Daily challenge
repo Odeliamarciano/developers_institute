@@ -1,0 +1,15 @@
+convert = int(input("enter a int to convert to binaire"))
+
+print(bin(convert))
+
+
+def reverse_Bits():
+    result = 0
+    for i in range(32):
+        result <<= 1
+        result |= n & 1
+        n >>= 1
+    return result
+
+print(reverse_Bits())
+
