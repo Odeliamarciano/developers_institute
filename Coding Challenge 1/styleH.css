@@ -1,0 +1,33 @@
+#canvas {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+  }
+  h1 {
+    color: var(--bg);
+    position: relative;
+    font-size: 20vw;
+    line-height: 100vh;
+    margin: 0;
+    pointer-events: none;
+  }
+  body {
+    min-height: 100vh;
+    background: var(--fg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  :root {
+    --fg: #10f75d;
+    --bg: #0a0a0a;
+  }
+
+  .button{
+    position: relative;;
+    margin-top: 30;
+    margin-left:05%;
+}

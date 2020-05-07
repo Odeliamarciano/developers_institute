@@ -1,0 +1,26 @@
+class Cat:
+    species = 'mammal'
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = int(age)
+
+    def oldest_cat(cat_list):
+
+        cat_max = 0
+        old_cat = None
+        for cat in cat_list:
+            if cat_max < cat.age:
+                cat_max = cat.age
+                old_cat = cat
+        return old_cat
+
+
+cat1 = Cat('kitty', 25)
+cat2 = Cat('sparky', 28)
+
+oldest_cat([cat1, cat2])
+
+
+
+

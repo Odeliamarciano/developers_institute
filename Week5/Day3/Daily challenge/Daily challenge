@@ -1,0 +1,16 @@
+class Palindrome:
+
+    def __init__(self, word):
+        self.word = word
+
+    def palindrome(self):
+        reverseword = self.word[::-1]
+        if self.word == reverseword:
+            return f"{self.word} is a palindrome"
+        else:
+            return f"{self.word} is not a palindrome"
+
+
+word = input("Enter a word")
+pla = Palindrome(word)
+print(pla.palindrome())
